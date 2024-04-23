@@ -1,5 +1,8 @@
-#include "helloWorld.h"
+#include <iostream>
 
-std::string HelloWorld::helloWorld() const {
-    return std::string("Hello World Test!")
-}
+class HelloWorld {
+public:
+    std::string helloWorld() const {
+        return std::string("Hello World Test!");
+    }
+};
